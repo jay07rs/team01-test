@@ -1,0 +1,10 @@
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log opened at 2012-02-17 02:57:15
+hint
+project --topLevelPackage th.ac.test
+jpa setup --provider HIBERNATE --database HYPERSONIC_IN_MEMORY 
+// [failed] entity jpa --class ~.domain.test --testAutomatically 
+// [failed] entity jpa --class ~.domain.Test --testAutomatically 
+// [failed] entity jpa --class th.ac.test.test --testAutomatically 
+entity jpa --class th.ac.test.aest --testAutomatically 
+exit
+// Spring Roo 1.2.0.RELEASE [rev 39eb957] log closed at 2012-02-17 03:00:13
